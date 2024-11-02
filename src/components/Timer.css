@@ -1,0 +1,64 @@
+.time_stamp{
+    display: flex;
+    & h2{
+        margin: 0 10px;
+    }
+    & h3{
+        margin: 5px 0
+    }
+}
+
+.timer{
+    display: flex;
+    align-items: center;
+}
+
+.RBtn{
+    display: flex;
+    & input{
+        margin-right: 1.5rem;
+    }
+}
+
+.Container{
+    width: 80%;
+
+}
+
+.QSet{
+    line-height: 1.5rem;
+    & li{
+        & span{
+            font-size: 1.2rem;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            color: blueviolet;
+        }
+    }
+}
+
+.submissiion_button{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+    & button{
+        height: 3rem;
+        width: fit-content;
+        padding: 0 20px;
+        margin-bottom: 2rem;
+        
+        font-size: 28px;
+        color: rgb(98, 0, 190);
+        font-weight: 400;
+        background-color: transparent;
+
+        border: 2px solid blueviolet;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
